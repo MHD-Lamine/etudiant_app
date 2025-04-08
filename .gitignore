@@ -1,0 +1,33 @@
+# === FLUTTER ===
+**/build/
+**/ios/Flutter/.symlinks
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/pubspec.lock
+**/.idea/
+**/.vscode/
+*.iml
+
+# === PYTHON / FLASK ===
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# === ENVIRONMENT FILES ===
+.env
+*.env
+
+# === DOCKER ===
+**/Dockerfile
+**/docker-compose.yml
+docker-compose.override.yml
+
+# === SYSTEM ===
+*.DS_Store
+Thumbs.db
